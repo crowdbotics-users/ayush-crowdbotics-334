@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'django-app-metrics', 'url': 'http://pypi.python.org/pypi/django-app-metrics/0.9.0'},
 	{'name':'django-experiments', 'url': 'http://pypi.python.org/pypi/django-experiments/1.2.0'},
 	{'name':'django-request', 'url': 'http://pypi.python.org/pypi/django-request/1.5.4'},
 	{'name':'django-trackstats', 'url': 'http://pypi.python.org/pypi/django-trackstats/0.5.0'},
